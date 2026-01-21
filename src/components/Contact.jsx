@@ -38,9 +38,10 @@ export default function Contact() {
 
   return (
     <section
-      id="contact"
-      className="py-20 bg-white dark:bg-gray-900 transition-colors duration-300"
-    >
+  id="contact"
+  className="scroll-mt-24 py-20 bg-white dark:bg-gray-900 transition-colors duration-300"
+>
+
       <div className="container mx-auto px-6">
         {/* Heading */}
         <div className="text-center mb-16">

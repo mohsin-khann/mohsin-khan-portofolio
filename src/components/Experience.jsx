@@ -4,7 +4,7 @@ export default function Experience() {
   const experiences = [
     {
       title: 'Frontend Developer',
-      company: 'NGEN Circle',
+      company: 'NGEN Circle Software House',
       period: '6 months',
       location: 'Peshawar, Pakistan · On-site',
       description: [
@@ -43,26 +43,52 @@ export default function Experience() {
         'AI Integration'
       ]
     },*/
+
     {
-      title: 'Freelance Full Stack Developer',
-      company: 'WhatsApp · Facebook · Fiverr',
-      period: 'Ongoing',
-      location: 'Remote · Client Projects',
-      description: [
-        'Leading freelance projects end-to-end — from client requirements and planning to final deployment.',
-        'Developed custom websites, dashboards and landing pages for different business domains.',
-        'Integrated APIs, authentication and AI-powered features where needed by clients.',
-        'Communicated with clients regularly, refined requirements and delivered on time with proper handover.'
-      ],
-      tech: [
-        'React',
-        'Next.js',
-        'Node.js',
-        'MongoDB',
-        'REST APIs',
-        'Deployment'
-      ]
-    }
+  title: 'MERN Stack Developer (Remote)',
+  company: 'DevArion Solution(Lahore Company)',
+  period: '3 months (Present)',
+  location: 'Remote · MERN Stack',
+  description: [
+    'Delivering assigned MERN stack tasks end-to-end, from requirements to implementation.',
+    'Building and improving REST APIs with Node.js and Express, focusing on clean structure and maintainability.',
+    'Working on MongoDB schema design and query optimization to keep features fast and scalable.',
+    'Implementing responsive React UI components and integrating APIs to ship production-ready features.',
+    'Collaborating remotely with the team for task planning, progress updates, and timely delivery.'
+  ],
+  tech: [
+    'MongoDB',
+    'Express.js',
+    'React',
+    'Node.js',
+    'MERN Stack',
+    'REST APIs',
+    'Git',
+    'Remote Collaboration'
+  ]
+},
+    {
+  title: 'Freelance Full Stack & AI Developer',
+  company: 'Remote · Client Projects',
+  period: 'Ongoing',
+  location: 'Web, AI/ML & App Projects',
+  description: [
+    'Delivering AI/ML, web,app and Final year projects end-to-end for clients.',
+    'Personally handling web development projects where needed.',
+    'Assigning app/other modules to developers and leading delivery to meet quality and timelines.',
+    'Managing clients, requirements, progress updates, and final handover.'
+  ],
+  tech: [
+    'JavaScript (ES6+)',
+    'React',
+    'Next.js',
+    'Node.js',
+    'MongoDB',
+    'REST APIs',
+    'AI/ML'
+  ]
+}
+
   ];
 
   return (

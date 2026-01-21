@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
-import About from '@/components/About';
+
 import Skills from '@/components/Skills';
 import Contact from '@/components/Contact';
 
@@ -41,7 +41,7 @@ export default function HomePage() {
         <Header darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
         <main className="pt-20">
           <Hero />
-          <About />
+          
           <Skills />
           <Contact />
         </main>

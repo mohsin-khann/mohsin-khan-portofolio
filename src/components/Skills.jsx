@@ -41,11 +41,8 @@ export default function Skills() {
         'REST APIs & API Integration',
         'MongoDB & Mongoose',
         'MySQL',
-        'Firebase',
         'Authentication & Authorization',
-        'Web Troubleshooting & API Support',
         'Server Maintenance & Bug Fixing',
-        'Database Setup & Hosting / Deployment',
         'AI Feature / AI API Integration'
       ]
     },
