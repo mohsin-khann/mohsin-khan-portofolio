@@ -70,7 +70,7 @@ export default function Hero() {
   <li className="grid grid-cols-[16px_1fr] gap-3 items-start">
     <span className="text-blue-600 dark:text-blue-400 font-extrabold leading-[1.4] text-lg">•</span>
 
-    <span className="font-medium">Continuous Learner with a Research Interest in Computing</span>
+    <span className="font-medium">Continuous Learner with a Strong Focus on AI & Machine Learning Innovation</span>
   </li>
 </ul>
 

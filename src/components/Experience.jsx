@@ -2,59 +2,38 @@ import { FiBriefcase, FiCalendar, FiMapPin } from 'react-icons/fi';
 
 export default function Experience() {
   const experiences = [
+    // {
+    //   title: 'Frontend Developer',
+    //   company: 'NGEN Circle Software House',
+    //   period: '6 months',
+    //   location: 'Peshawar, Pakistan · On-site',
+    //   description: [
+    //     'Developed responsive frontend interfaces using JavaScript, React, Tailwind CSS and Bootstrap.',
+    //     'Integrated REST APIs and connected frontend with Node.js backend services for production features.',
+    //     'Collaborated with backend and design teams to deliver clean, maintainable and reusable UI components.',
+    //     'Contributed to integrating AI-powered features into web applications to enhance user experience.'
+    //   ],
+    //   tech: [
+    //     'JavaScript',
+    //     'React',
+    //     'Node.js',
+    //     'Tailwind CSS',
+    //     'Bootstrap',
+    //     'REST APIs',
+    //     'AI Integration'
+    //   ]
+    // },
     {
-      title: 'Frontend Developer',
-      company: 'NGEN Circle Software House',
-      period: '6 months',
-      location: 'Peshawar, Pakistan · On-site',
-      description: [
-        'Developed responsive frontend interfaces using JavaScript, React, Tailwind CSS and Bootstrap.',
-        'Integrated REST APIs and connected frontend with Node.js backend services for production features.',
-        'Collaborated with backend and design teams to deliver clean, maintainable and reusable UI components.',
-        'Contributed to integrating AI-powered features into web applications to enhance user experience.'
-      ],
-      tech: [
-        'JavaScript',
-        'React',
-        'Node.js',
-        'Tailwind CSS',
-        'Bootstrap',
-        'REST APIs',
-        'AI Integration'
-      ]
-    },
-    /*{
-      title: 'Full Stack Web & AI Developer',
-      company: 'The Nerd Camp',
-      period: '14 months',
-      location: 'Software House · Full Stack & AI',
-      description: [
-        'Built end-to-end MERN stack applications, from database design to deployment and maintenance.',
-        'Implemented scalable REST APIs and reusable backend modules using Node.js and Express.',
-        'Integrated AI models and external AI APIs into web platforms to deliver intelligent, data-driven features.',
-        'Worked closely with teams to design clean architectures, improve performance and ensure reliability in production.'
-      ],
-      tech: [
-        'MongoDB',
-        'Express.js',
-        'React',
-        'Node.js',
-        'MERN Stack',
-        'AI Integration'
-      ]
-    },*/
-
-    {
-  title: 'MERN Stack Developer (Remote)',
-  company: 'DevArion Solution(Lahore Company)',
-  period: '3 months (Present)',
-  location: 'Remote · MERN Stack',
+  title: 'MERN Stack Developer (Exploring AI Integration)',
+  company: 'The Nerd Camp',
+  period: '14 months',
+  location: 'Software House · Full Stack Development',
   description: [
-    'Delivering assigned MERN stack tasks end-to-end, from requirements to implementation.',
-    'Building and improving REST APIs with Node.js and Express, focusing on clean structure and maintainability.',
-    'Working on MongoDB schema design and query optimization to keep features fast and scalable.',
-    'Implementing responsive React UI components and integrating APIs to ship production-ready features.',
-    'Collaborating remotely with the team for task planning, progress updates, and timely delivery.'
+    'Worked on full MERN stack applications, handling frontend, backend, and database development.',
+    'Built REST APIs using Node.js and Express, and developed responsive UI using React.',
+    'Maintained and improved existing systems by fixing bugs and optimizing performance.',
+    'Recently started exploring AI integration by working with APIs and building simple AI-based features like chatbots and automation.',
+    'Learning and experimenting with modern AI tools to gradually move towards intelligent application development.'
   ],
   tech: [
     'MongoDB',
@@ -62,20 +41,44 @@ export default function Experience() {
     'React',
     'Node.js',
     'MERN Stack',
-    'REST APIs',
-    'Git',
-    'Remote Collaboration'
+    'OpenAI API',
+    'LLM Chatbots ',
+    'AI Integration (Beginner)',
+    'LangChain',
+  ]
+},
+{
+  title: 'Full Stack Developer & AI/ML Trainee',
+  company: 'IT Artificer Software Company',
+  period: 'Present',
+  location: 'Software Development · Training & Learning',
+  description: [
+    'Working on MERN stack applications, handling both frontend and backend development tasks.',
+    'Gaining practical experience in Artificial Intelligence and Machine Learning by exploring real-world use cases and integrations.',
+    'Learning and applying basic AI concepts such as chatbots, automation, and data-driven features in web projects.',
+    'Teaching and guiding students in web development, helping them understand core concepts of HTML, CSS, JavaScript, and MERN stack.',
+    'Continuously improving technical skills by combining development work with hands-on AI/ML learning.'
+  ],
+  tech: [
+    'MongoDB',
+    'Express.js',
+    'React',
+    'Node.js',
+    'MERN Stack',
+    'AI/ML (Learning)',
+    'OpenAI API',
+    'LangChain',
+    'Teaching / Mentoring'
   ]
 },
     {
-  title: 'Freelance Full Stack & AI Developer',
+  title: 'Freelance Developer & Project Outsourcing',
   company: 'Remote · Client Projects',
   period: 'Ongoing',
   location: 'Web, AI/ML & App Projects',
   description: [
     'Delivering AI/ML, web,app and Final year projects end-to-end for clients.',
-    'Personally handling web development projects where needed.',
-    'Assigning app/other modules to developers and leading delivery to meet quality and timelines.',
+    'Assigning app/other modules and tasks to developers and leading delivery to meet quality and timelines.',
     'Managing clients, requirements, progress updates, and final handover.'
   ],
   tech: [
