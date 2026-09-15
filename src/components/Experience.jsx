@@ -2,96 +2,71 @@ import { FiBriefcase, FiCalendar, FiMapPin } from 'react-icons/fi';
 
 export default function Experience() {
   const experiences = [
-    // {
-    //   title: 'Frontend Developer',
-    //   company: 'NGEN Circle Software House',
-    //   period: '6 months',
-    //   location: 'Peshawar, Pakistan · On-site',
-    //   description: [
-    //     'Developed responsive frontend interfaces using JavaScript, React, Tailwind CSS and Bootstrap.',
-    //     'Integrated REST APIs and connected frontend with Node.js backend services for production features.',
-    //     'Collaborated with backend and design teams to deliver clean, maintainable and reusable UI components.',
-    //     'Contributed to integrating AI-powered features into web applications to enhance user experience.'
-    //   ],
-    //   tech: [
-    //     'JavaScript',
-    //     'React',
-    //     'Node.js',
-    //     'Tailwind CSS',
-    //     'Bootstrap',
-    //     'REST APIs',
-    //     'AI Integration'
-    //   ]
-    // },
     {
-  title: 'MERN Stack Developer (Exploring AI Integration)',
-  company: 'The Nerd Camp',
-  period: '14 months',
-  location: 'Software House · Full Stack Development',
-  description: [
-    'Worked on full MERN stack applications, handling frontend, backend, and database development.',
-    'Built REST APIs using Node.js and Express, and developed responsive UI using React.',
-    'Maintained and improved existing systems by fixing bugs and optimizing performance.',
-    'Recently started exploring AI integration by working with APIs and building simple AI-based features like chatbots and automation.',
-    'Learning and experimenting with modern AI tools to gradually move towards intelligent application development.'
-  ],
-  tech: [
-    'MongoDB',
-    'Express.js',
-    'React',
-    'Node.js',
-    'MERN Stack',
-    'OpenAI API',
-    'LLM Chatbots ',
-    'AI Integration (Beginner)',
-    'LangChain',
-  ]
-},
-{
-  title: 'Full Stack Developer & AI/ML Trainee',
-  company: 'IT Artificer Software Company',
-  period: 'Present',
-  location: 'Software Development · Training & Learning',
-  description: [
-    'Working on MERN stack applications, handling both frontend and backend development tasks.',
-    'Gaining practical experience in Artificial Intelligence and Machine Learning by exploring real-world use cases and integrations.',
-    'Learning and applying basic AI concepts such as chatbots, automation, and data-driven features in web projects.',
-    'Teaching and guiding students in web development, helping them understand core concepts of HTML, CSS, JavaScript, and MERN stack.',
-    'Continuously improving technical skills by combining development work with hands-on AI/ML learning.'
-  ],
-  tech: [
-    'MongoDB',
-    'Express.js',
-    'React',
-    'Node.js',
-    'MERN Stack',
-    'AI/ML (Learning)',
-    'OpenAI API',
-    'LangChain',
-    'Teaching / Mentoring'
-  ]
-},
+      title: 'MERN Stack Developer',
+      company: 'NGEN Circle Software House Pvt Ltd',
+      period: '21/02/2025 – 10/10/2025',
+      location: 'Peshawar, Pakistan',
+      description: [
+        'Developed production-ready full-stack web solutions using the MERN stack.',
+        'Built clean RESTful APIs, secure authentication flows, and well-structured databases.',
+        'Collaborated across frontend and backend teams to deliver scalable, high-quality web systems.',
+        'Consistently delivered production-ready features on time in a professional software house environment.'
+      ],
+      tech: [
+        'MongoDB',
+        'Express.js',
+        'React',
+        'Node.js',
+        'MERN Stack',
+        'REST APIs',
+        'Authentication'
+      ]
+    },
     {
-  title: 'Freelance Developer & Project Outsourcing',
-  company: 'Remote · Client Projects',
-  period: 'Ongoing',
-  location: 'Web, AI/ML & App Projects',
-  description: [
-    'Delivering AI/ML, web,app and Final year projects end-to-end for clients.',
-    'Assigning app/other modules and tasks to developers and leading delivery to meet quality and timelines.',
-    'Managing clients, requirements, progress updates, and final handover.'
-  ],
-  tech: [
-    'JavaScript (ES6+)',
-    'React',
-    'Next.js',
-    'Node.js',
-    'MongoDB',
-    'REST APIs',
-    'AI/ML'
-  ]
-}
-
+      title: 'Full-Stack Web & AI Integration Developer',
+      company: 'IT Artificer Software House',
+      period: '19/02/2026 – Current',
+      location: 'Peshawar, Pakistan',
+      description: [
+        'Building and delivering full-stack web solutions including POS systems, inventory management, HR platforms, and business process solutions.',
+        'Actively integrating LLM-powered chatbots and agentic systems into business applications.',
+        'Transforming traditional software into intelligent, self-driven solutions.',
+        'Mentoring students in the MERN stack through professional development courses.'
+      ],
+      tech: [
+        'MongoDB',
+        'Express.js',
+        'React',
+        'Node.js',
+        'MERN Stack',
+        'LLM Integration',
+        'AI Chatbots',
+        'Agentic Systems',
+        'Teaching / Mentoring'
+      ]
+    },
+    {
+      title: 'Freelancer',
+      company: 'Online · Client Projects',
+      period: '17/08/2025 – Current',
+      location: 'Remote',
+      description: [
+        'Taking on client projects independently, building full-stack web solutions and AI integrations from start to finish.',
+        'Leading small dev teams by assigning tasks and reviewing work.',
+        'Managing clients, requirements, progress updates, and final handover, ensuring every project is delivered with quality and on time.'
+      ],
+      tech: [
+        'JavaScript (ES6+)',
+        'React',
+        'Next.js',
+        'Node.js',
+        'MongoDB',
+        'REST APIs',
+        'AI Integration',
+        'Client Handling'
+      ]
+    }
   ];
 
   return (

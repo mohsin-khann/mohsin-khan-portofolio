@@ -9,6 +9,78 @@ export default function Projects() {
 
   const projects = [
     {
+      title: 'Multi-Branch Retail, Installment & Cross-Border Remittance Platform',
+      subtitle: 'Full-Stack SaaS Platform (Freelance Project)',
+      description:
+        'A full-stack SaaS platform built as a freelance project (2 months), combining a Point-of-Sale system, installment-based sales with guarantor-backed lending, and a Cross-Border Remittance module (UAE ⇄ Pakistan). Supports multiple branches with role-based access for admins, staff, and customers, including inventory management, payment recovery, cash book, and financial reporting.',
+      role: 'Full Stack Developer (Freelance)',
+      businessImpact:
+        'Delivered a complete multi-branch retail and remittance system handling commission and exchange-rate logic, inventory, and financial reporting for a live business.',
+      image:
+        'https://s.wordpress.com/mshots/v1/https%3A%2F%2Fabapexgadgets.com%2F?w=900&h=600',
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'REST APIs', 'JWT Auth', 'Role-Based Access'],
+      category: 'Full Stack',
+      live: 'https://abapexgadgets.com/',
+    },
+    {
+      title: 'Retail POS System',
+      subtitle: 'Point-of-Sale & Inventory Management (Live Demo)',
+      description:
+        'A full-stack Point-of-Sale and inventory management system with a single-screen admin dashboard showing purchase/sales due, total sales & expense amounts, customers, suppliers, purchase & sales invoices, and a purchase-vs-sales bar chart. Includes dedicated modules for Sales, Purchase, Inventory, Suppliers, Items, Expenses, Reports, and Users with role-based access.',
+      role: 'Full Stack Developer',
+      businessImpact:
+        'Gives retail businesses a real-time, single-screen view of sales, purchases, expenses, and stock — reducing manual billing and inventory errors.',
+      image: '/download.png',
+      technologies: ['PHP', 'MySQL', 'JavaScript', 'Bootstrap', 'Admin Dashboard', 'Chart.js'],
+      category: 'Full Stack',
+      live: 'https://itgenesis.space/Demo_retail_pos/index.php',
+      demo: {
+        url: 'https://itgenesis.space/Demo_retail_pos/index.php',
+        username: 'admin',
+        password: 'admin123',
+      },
+    },
+    {
+      title: 'AI-Powered Lost & Found Items System',
+      subtitle: 'Final Year Project (FYP)',
+      description:
+        'A cross-platform app using AI-based image and text matching for efficient item search and recovery. Features user-friendly reporting and searching, with an admin dashboard for easy management and recovery-rate tracking.',
+      role: 'Full Stack Developer',
+      businessImpact:
+        'Automated the manual process of matching lost and found items using AI, improving recovery rates and reducing admin workload.',
+      image:
+        'https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=900&h=600&fit=crop&crop=center',
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'AI Image Matching', 'NLP Text Matching'],
+      category: 'Full Stack',
+    },
+    {
+      title: 'Al-Haq Online — Jamia Haqqania Digital Portal',
+      subtitle: 'Digital Archive & Admin Platform (IT Artificer Software House)',
+      description:
+        'Digital portal for Jamia Haqqania Akora Khattak, digitizing 60+ years of journal archives, with a searchable Fatwa & Article library and a role-based admin panel, developed and deployed for live production use.',
+      role: 'Full Stack Developer',
+      businessImpact:
+        'Preserved decades of journal archives in a searchable digital library and gave admins a role-based panel to manage content in production.',
+      image:
+        'https://s.wordpress.com/mshots/v1/https%3A%2F%2Falhaq.jamiahaqqania.edu.pk%2F?w=900&h=600',
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Search / Indexing', 'Role-Based Admin Panel'],
+      category: 'Full Stack',
+      live: 'https://alhaq.jamiahaqqania.edu.pk/',
+    },
+    {
+      title: 'AI-Powered Hostel Complaint Management System',
+      subtitle: 'Full Stack MERN Application (Freelance FYP Project)',
+      description:
+        'A full-stack MERN application with a structured role-based complaint workflow covering multi-level escalation across Admin, Warden, and Provost roles. Integrated an LLM-powered AI chatbot (Llama 3.3 70B + Vision) that analyzes complaint text and images, auto-generates reports, and routes them to the relevant department automatically.',
+      role: 'Full Stack MERN Developer (Freelance)',
+      businessImpact:
+        'Automated complaint triage and routing with an AI chatbot, cutting down manual escalation work across hostel administration roles.',
+      image:
+        'https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=900&h=600&fit=crop&crop=center',
+      technologies: ['React', 'Node.js', 'Express.js', 'MongoDB', 'Llama 3.3 70B', 'LLM Chatbot', 'Vision AI'],
+      category: 'Full Stack',
+    },
+    {
   title: 'UET University Website',
   subtitle: 'Academic Practice Project (React)',
   description:
@@ -129,6 +201,7 @@ export default function Projects() {
       live: 'https://story-pulse-two.vercel.app/login',
     },
 
+    /*
     {
   title: 'EasyShoppe E-commerce App',
   subtitle: 'Client Project (Fiverr)',
@@ -143,6 +216,7 @@ export default function Projects() {
   github: 'https://github.com/mohsin-khann/EasyShoppe',
   live: 'https://easy-shoppe.vercel.app/collection',
 },
+    */
    
     {
   title: 'Mohsin Gym & Fitness',
@@ -260,6 +334,29 @@ export default function Projects() {
                       </span>
                     ))}
                   </div>
+
+                  {!!project.demo && (
+                    <div className="mb-4 rounded-lg border border-amber-200 dark:border-amber-900 bg-amber-50 dark:bg-amber-950/30 p-3">
+                      <p className="text-xs font-semibold text-amber-800 dark:text-amber-300 mb-1">
+                        🔑 Live Demo — use these credentials to test
+                      </p>
+                      <p className="text-xs text-amber-700 dark:text-amber-400">
+                        Username: <span className="font-semibold">{project.demo.username}</span>
+                        {' · '}
+                        Password: <span className="font-semibold">{project.demo.password}</span>
+                      </p>
+                      <a
+                        href={project.demo.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 text-xs font-semibold text-amber-800 dark:text-amber-300 hover:underline mt-1"
+                      >
+                        <FiExternalLink className="w-3 h-3" />
+                        <span>Open Demo</span>
+                      </a>
+                    </div>
+                  )}
+
 <div className="flex items-center justify-between">
   <div className="flex gap-4">
     {!!project.github && (
